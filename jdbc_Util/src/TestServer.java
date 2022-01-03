@@ -5,17 +5,17 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-//
+@override
 //@WebServlet("/Servlet/TestServer")
 public class TestServer extends HttpServlet {
 
     protected void server(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        // ÉèÖÃÏìÓ¦µÄ±àÂë
+        // è®¾ç½®å“åº”çš„ç¼–ç 
         resp.setContentType("text/html,charset=utf8");
 
-//ÍøÒ³µÄÊä³öÁ÷
+//ç½‘é¡µçš„è¾“å‡ºæµ
         PrintWriter out = resp.getWriter();
-        out.print("ÕâÊÇµÚÒ»¸ö³ÌĞò");
+        out.print("è¿™æ˜¯ç¬¬ä¸€ä¸ªç¨‹åº");
         out.flush();
         out.close();
     }
