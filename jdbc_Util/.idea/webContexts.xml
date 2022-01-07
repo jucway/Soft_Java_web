@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/web/index-elements/index_top.jsp" value="file://$PROJECT_DIR$/web/index-elements" />
+        <entry key="file://$PROJECT_DIR$/web/newspages/news_add.jsp" value="file://$PROJECT_DIR$/web/newspages" />
+      </map>
+    </option>
+  </component>
+</project>
